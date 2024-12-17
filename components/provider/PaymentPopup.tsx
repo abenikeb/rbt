@@ -9,11 +9,11 @@ import {
 	DialogHeader,
 	DialogTitle,
 } from "@/components/ui/dialog";
-import { Music } from "./ProviderDashboard";
+import { Tone } from "./ProviderDashboard";
 import { Phone, Wallet } from "lucide-react";
 
 interface PaymentPopupProps {
-	Music: Music;
+	Music: Tone;
 	onComplete: () => void;
 	onClose: () => void;
 }
