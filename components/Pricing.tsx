@@ -37,9 +37,7 @@ export function Pricing() {
 	return (
 		<section className="py-20 bg-gray-50">
 			<div className="container mx-auto">
-				<h2 className="text-4xl font-bold text-center mb-12">
-					Choose Provider Plan
-				</h2>
+				<h2 className="text-4xl font-bold text-center mb-12">Choose a Plan</h2>
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 					{plans.map((plan, index) => (
 						<div

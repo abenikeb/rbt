@@ -37,7 +37,7 @@ export function MusicList() {
 		// Approved Tones
 		{
 			id: 1,
-			title: "Tizita Tone",
+			title: "Champaign #1",
 			plays: 15000,
 			artist: "Teddy Beka",
 			status: "approved",
@@ -48,7 +48,7 @@ export function MusicList() {
 		},
 		{
 			id: 2,
-			title: "Afro Sound",
+			title: "Champaign #2",
 			plays: 8000,
 			artist: "Teddy Beka",
 			textMessage: "Please subscribe the tone",
@@ -59,7 +59,7 @@ export function MusicList() {
 		},
 		{
 			id: 3,
-			title: "Afro Message",
+			title: "Champaign #3",
 			plays: 12000,
 			artist: "Tilahun Afro",
 			textMessage: "Please subscribe the tone",
@@ -72,7 +72,7 @@ export function MusicList() {
 		// Pending Tones
 		{
 			id: 4,
-			title: "Ambassel Afro",
+			title: "Champaign #4",
 			plays: 0,
 			textMessage: "Please subscribe the tone",
 			artist: "Teddy Afro",
@@ -85,7 +85,7 @@ export function MusicList() {
 		// Rejected Tones
 		{
 			id: 5,
-			title: "Ambassel Tone",
+			title: "Champaign #5",
 			textMessage: "Please subscribe the tone",
 			plays: 0,
 			artist: "Beki Afro",

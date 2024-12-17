@@ -1,12 +1,12 @@
 export function Footer() {
 	return (
-		<footer className="bg-gray-800 text-white py-8">
+		<footer className="bg-[#19648f] text-white py-8">
 			<div className="container mx-auto px-6">
 				<div className="flex flex-wrap justify-between">
 					<div className="w-full md:w-1/4 mb-6 md:mb-0">
-						<h3 className="text-xl font-bold mb-4">MusicStream</h3>
-						<p className="text-gray-400">
-							Discover, stream, and enjoy your favorite Music anytime, anywhere.
+						<h3 className="text-xl font-bold mb-4">AdRBT</h3>
+						<p className="text-gray-50">
+							Revolutionizing mobile advertising in Ethiopia.
 						</p>
 					</div>
 					<div className="w-full md:w-1/4 mb-6 md:mb-0">
@@ -69,8 +69,8 @@ export function Footer() {
 						</div>
 					</div>
 				</div>
-				<div className="mt-8 pt-8 border-t border-gray-700 text-center text-sm text-gray-400">
-					© 2024 MusicStream. All rights reserved.
+				<div className="mt-8 pt-8 border-t border-gray-50 text-center text-sm text-gray-50">
+					© 2024 AdRBT. All rights reserved
 				</div>
 			</div>
 		</footer>

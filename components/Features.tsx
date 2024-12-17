@@ -1,21 +1,30 @@
-import { Music, Headphones, Radio } from "lucide-react";
+import {
+	Music,
+	Headphones,
+	Radio,
+	DollarSign,
+	DollarSignIcon,
+} from "lucide-react";
 
 export function Features() {
 	const features = [
 		{
 			icon: Music,
-			title: "Millions of Songs",
-			description: "Access to a vast library of songs across all genres.",
+			title: "Real-Time Performance Tracking",
+			description:
+				"Detailed analytics and reporting provide real-time insights into campaign performance, enabling advertisers to make quick adjustments and optimize their campaigns for better results.",
 		},
 		{
-			icon: Headphones,
-			title: "Ad-Free Listening",
-			description: "Enjoy uninterrupted Music without any advertisements.",
+			icon: DollarSignIcon,
+			title: "Cost-Effectiveness",
+			description:
+				"Compared to traditional advertising channels, AdRBT can often be more cost-effective, especially for reaching large, targeted audiences.",
 		},
 		{
 			icon: Radio,
-			title: "Personalized Playlists",
-			description: "Get custom playlists based on your listening habits.",
+			title: "Measurable Results ",
+			description:
+				"Comprehensive tracking and reporting, advertisers can easily measure the effectiveness of their campaigns and calculate their return on investment (ROI).",
 		},
 	];
 

@@ -9,15 +9,21 @@ export default function AdminPage() {
 	const router = useRouter();
 
 	const handleLogout = () => {
-		// In a real app, you would clear the authentication state here
 		router.push("/");
 	};
 
 	return (
 		<div className="min-h-screen bg-white">
-			<header className="bg-lime-500 shadow-md">
+			<header className="bg-white shadow-md">
 				<div className="container mx-auto px-4 py-4 flex justify-between items-center">
-					<h1 className="text-3xl font-bold text-white">Admin Dashboard</h1>
+					{/* <h1 className="text-3xl font-bold text-white">Admin Dashboard</h1> */}
+					<div className="flex flex-row gap-3 items-center">
+						<img src="/assets/images/logo-tele.png" className="w-36" alt="" />
+						<h1 className="text-2xl font-bold text-lime-500">
+							Admin Dashboard
+						</h1>
+					</div>
+
 					<div className="flex items-center space-x-4">
 						<div className="flex items-center space-x-2">
 							<User className="w-6 h-6 text-gray-600" />

@@ -223,7 +223,7 @@ export function AdminDashboard() {
 					<CardHeader>
 						<CardTitle className="flex items-center">
 							<Bell className="w-6 h-6 mr-2" />
-							Admin Notifications
+							Telecom Admin Notifications
 						</CardTitle>
 						<CardDescription>
 							Review and manage new ad submissions

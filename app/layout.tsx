@@ -26,7 +26,7 @@ export default function RootLayout({
 			<Provider session={undefined}>
 				<body
 					className={cn(
-						"min-h-screen bg-background font-sans antialiased mb-[7vh]",
+						"min-h-screen bg-background font-sans antialiased",
 						fontSans.variable
 					)}>
 					{children}

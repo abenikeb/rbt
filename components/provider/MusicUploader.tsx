@@ -44,11 +44,8 @@ export function MusicUploader() {
 		<Card className="w-full max-w-2xl mx-auto">
 			<CardHeader>
 				<CardTitle className="text-2xl font-bold text-center">
-					Upload Your Ad Tone
+					Upload Your Ringback Ad Tone
 				</CardTitle>
-				{/* <CardDescription className="text-center">
-					Share your Ethiopian melodies with our global audience
-				</CardDescription> */}
 			</CardHeader>
 
 			<CardContent>
@@ -73,7 +70,7 @@ export function MusicUploader() {
 								required
 								className="border-gray-300 focus:border-green-500 focus:ring-green-500"
 							/>
-							<Music className="h-5 w-5 text-green-500" />
+							<Music className="h-5 w-5 text-lime-500" />
 						</div>
 					</div>
 
@@ -114,13 +111,6 @@ export function MusicUploader() {
 					</Button>
 				</form>
 			</CardContent>
-			{/* <CardFooter>
-				<Button
-					type="submit"
-					className="w-full bg-lime-500 hover:bg-green-700 text-white">
-					<Upload className="mr-2 h-4 w-4" /> Upload Song
-				</Button>
-			</CardFooter> */}
 		</Card>
 	);
 }
