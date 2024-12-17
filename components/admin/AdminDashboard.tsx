@@ -103,7 +103,7 @@ export function AdminDashboard() {
 			id: 5,
 			name: "Champaign #7",
 			providerId: 1,
-			providerName: "Music Co.",
+			providerName: "ad Co.",
 			status: "approved",
 			plays: 7500,
 		},
@@ -258,7 +258,7 @@ export function AdminDashboard() {
 					<CardHeader>
 						<CardTitle>Approved ads</CardTitle>
 						<CardDescription>
-							List of all approved Musics and their status
+							List of all approved ads and their status
 						</CardDescription>
 					</CardHeader>
 					<CardContent>

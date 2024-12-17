@@ -72,8 +72,8 @@ export function MusicProviderAccounts({
 					<TableHead className="w-[200px]">Name</TableHead>
 					<TableHead>Email</TableHead>
 					<TableHead>Status</TableHead>
-					<TableHead className="text-center">Total Musics</TableHead>
-					<TableHead className="text-center">Approved Musics</TableHead>
+					<TableHead className="text-center">Total ads</TableHead>
+					<TableHead className="text-center">Approved ads</TableHead>
 					<TableHead className="text-right">Actions</TableHead>
 				</TableRow>
 			</TableHeader>

@@ -25,7 +25,7 @@ export function ApprovedMusicsList() {
 			id: 5,
 			name: "Champaign #7",
 			providerId: 1,
-			providerName: "Music Co.",
+			providerName: "ad Co.",
 			status: "approved",
 			plays: 7500,
 		},
@@ -35,7 +35,7 @@ export function ApprovedMusicsList() {
 		<Table>
 			<TableHeader>
 				<TableRow>
-					<TableHead className="w-[300px]">Music Name</TableHead>
+					<TableHead className="w-[300px]">Ad Name</TableHead>
 					<TableHead>Provider</TableHead>
 					<TableHead>Status</TableHead>
 					<TableHead className="text-right">Total Plays</TableHead>

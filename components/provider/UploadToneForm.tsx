@@ -53,7 +53,7 @@ export function UploadMusicForm({ onMusicUpload }: UploadMusicFormProps) {
 	return (
 		<form onSubmit={handleSubmit} className="space-y-4">
 			<div>
-				<Label htmlFor="MusicName">Music Name</Label>
+				<Label htmlFor="MusicName">Ad Name</Label>
 				<Input
 					id="MusicName"
 					value={MusicName}

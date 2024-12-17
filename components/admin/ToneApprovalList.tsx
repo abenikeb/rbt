@@ -22,7 +22,7 @@ export function MusicApprovalList({
 		<Table>
 			<TableHeader>
 				<TableRow>
-					<TableHead>Music Name</TableHead>
+					<TableHead>ad Name</TableHead>
 					<TableHead>Provider</TableHead>
 					<TableHead>Flash Message</TableHead>
 					<TableHead>Submitted</TableHead>
