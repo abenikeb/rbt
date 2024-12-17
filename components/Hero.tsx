@@ -9,11 +9,11 @@ export function Hero() {
 	return (
 		<section className="relative py-32 overflow-hidden">
 			<div className="absolute inset-0 z-0 bg-[#238dcb]">
-				{/* <img
+				<img
 					src="/assets/images/promo2.jpg?height=1080&width=1920"
 					alt="Background"
-					className="w-full h-full object-cover"
-				/> */}
+					className="w-full h-full object-cover opacity-10"
+				/>
 				<div className="absolute inset-0 bg-black opacity-30">j</div>
 			</div>
 			<div className="relative z-10 container mx-auto text-center text-white">
