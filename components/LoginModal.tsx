@@ -39,7 +39,7 @@ export function LoginModal({ isOpen, onClose, onLogin }: LoginModalProps) {
 			<DialogContent className="sm:max-w-[425px]">
 				<DialogHeader>
 					<DialogTitle className="text-2xl font-bold text-center text-lime-500">
-						Welcome to Ad-Tone
+						Welcome to Ad-RBT
 					</DialogTitle>
 					<DialogDescription className="text-center mb-4">
 						Please enter your credentials to login.
