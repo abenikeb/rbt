@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { PaymentPopup } from "@/components/provider/PaymentPopup";
-import { Music } from "@/components/provider/ProviderDashboard";
+import { Tone } from "@/components/provider/ProviderDashboard";
 import { Bell, ArrowLeft, CheckCircle, XCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -55,7 +55,7 @@ export default function NotificationsPage() {
 		},
 	]);
 	const [showPaymentPopup, setShowPaymentPopup] = useState(false);
-	const [selectedMusic, setSelectedMusic] = useState<Music | null>(null);
+	const [selectedMusic, setSelectedMusic] = useState<Tone | null>(null);
 
 	const handleApprovedMusicClick = (notification: Notification) => {
 		setSelectedMusic({
@@ -63,7 +63,7 @@ export default function NotificationsPage() {
 			name: notification.MusicName,
 			plays: 0,
 			status: "approved",
-		} as Music);
+		} as Tone);
 		setShowPaymentPopup(true);
 	};
 
