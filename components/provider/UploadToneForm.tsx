@@ -7,10 +7,10 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { AlertCircle } from "lucide-react";
-import { Music } from "./ProviderDashboard";
+import { Tone } from "./ProviderDashboard";
 
 interface UploadMusicFormProps {
-	onMusicUpload?: (Music: Music) => void;
+	onMusicUpload?: (Music: Tone) => void;
 }
 
 export function UploadMusicForm({ onMusicUpload }: UploadMusicFormProps) {
@@ -26,7 +26,7 @@ export function UploadMusicForm({ onMusicUpload }: UploadMusicFormProps) {
 		setIsSubmitted(true);
 
 		// Create a new Music object
-		const newMusic: Music = {
+		const newMusic: any = {
 			id: Date.now(), // This should be replaced with a proper ID from the backend
 			name: MusicName,
 			plays: 0,

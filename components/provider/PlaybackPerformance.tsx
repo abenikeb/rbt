@@ -2,10 +2,10 @@
 
 import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 import { Button } from "@/components/ui/button";
-import { Music } from "./ProviderDashboard";
+import { Tone } from "./ProviderDashboard";
 
 interface PlaybackPerformanceProps {
-	Musics: Music[];
+	Musics: Tone[];
 	onBackClick?: () => void;
 	showBackButton?: boolean;
 }
